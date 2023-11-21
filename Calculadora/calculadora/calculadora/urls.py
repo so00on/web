@@ -20,3 +20,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('agua/', include('agua.urls')),
 ]
+
+# establece las rutas URL principales del proyecto Django. Las solicitudes a '/admin/' son manejadas por la interfaz de administración de Django, y las solicitudes a '/agua/' son manejadas por las rutas definidas en el archivo 'urls.py' de la aplicación 'agua'.
+
+
+
+
+

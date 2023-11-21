@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'calculadora.settings')
 
 application = get_wsgi_application()
+
+
+
+#onfigura el entorno de Django y obtiene la aplicación WSGI para el proyecto, preparando así el proyecto Django para ser desplegado en un servidor web compatible con WSGI. 
