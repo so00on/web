@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <form action="result">
+        <h1 class="text-center">Calculadora de agua</h1>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <label>Minutos de uso en la ducha:</label>
+                <input 
+                class="form form-control"
+                type="number" 
+                name="ducha" 
+                placeholder="Ingrese valor en Minutos Ej. 4">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <label>Minutos de uso en labado de manos</label>
+                <input 
+                class="form form-control"
+                type="text"
+                name="bano"
+                placeholder="Ingrese valor en Minutos Ej. 5">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <button 
+                class="btn btn-primary"
+                type="submit"
+                name="calcular">
+                    Calcular
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

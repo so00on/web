@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center mt-3 mb-3">
+            <h2><b>RESULTADOS DEL CALCULO DE CONSUMO DE AGUA</b></h2>
+        </div>
+        <table class="table table-striped table-bordered">
+            <tr>
+                <td>
+                    <b>Descripción</b>
+                </td>
+                <td>
+                    <b>Listros gastado</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-info"><b>Ducha</b></td>
+                <td>{{ducha}}</td>
+            </tr>
+            <tr>
+                <td class="text-info"><b>Baño</b></td>
+                <td>{{bano}}</td>
+            </tr>
+            <tr>
+                <td>
+                    <b>TOTAL GASTADO</b>
+                </td>
+                <td>
+                    {{totalGastado}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Calificación</b>
+                </td>
+                <td>
+                    <b class="text-danger">{{calificacion}}</b>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
